@@ -197,8 +197,34 @@
 }
 
 .project-card__description {
+  font-size: var(--font-size-sm);
+  line-height: 1.6;
   color: var(--text-color);
   margin-bottom: 1.25rem;
+}
+
+.project-card__technologies {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+
+.tech-tag {
+  display: inline-block;
+  background-color: var(--accent-color-light);
+  color: var(--accent-color-dark);
+  font-size: var(--font-size-xs);
+  font-weight: 600;
+  padding: 0.35rem 0.75rem;
+  border-radius: 2rem;
+  transition: all 0.3s ease;
+}
+
+.tech-tag:hover {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  transform: translateY(-2px);
 }
 
 .project-card__features {

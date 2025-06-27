@@ -26,6 +26,12 @@ function Projects() {
                 desenvolvido com HTML, CSS e JavaScript, com informações
                 institucionais, agenda de cultos e localização.
               </p>
+              <div className="project-card__technologies">
+                <span className="tech-tag">HTML5</span>
+                <span className="tech-tag">CSS3</span>
+                <span className="tech-tag">JavaScript</span>
+                <span className="tech-tag">Responsivo</span>
+              </div>
               <ul className="project-card__features">
                 <li>Seção de figuras históricas da reforma</li>
                 <li>Agenda semanal de eventos</li>
@@ -70,6 +76,12 @@ function Projects() {
                 JavaScript, apresentando serviços, especialidades e depoimentos
                 de clientes.
               </p>
+              <div className="project-card__technologies">
+                <span className="tech-tag">HTML5</span>
+                <span className="tech-tag">CSS3</span>
+                <span className="tech-tag">JavaScript</span>
+                <span className="tech-tag">Responsivo</span>
+              </div>
               <ul className="project-card__features">
                 <li>Seção de apresentação com contadores dinâmicos</li>
                 <li>Cards de serviços com ícones personalizados</li>
@@ -111,6 +123,11 @@ function Projects() {
                 CSS, apresentando categorias de produtos e proposta de valor da
                 marca
               </p>
+              <div className="project-card__technologies">
+                <span className="tech-tag">HTML5</span>
+                <span className="tech-tag">CSS3</span>
+                <span className="tech-tag">Design Responsivo</span>
+              </div>
               <ul className="project-card__features">
                 <li>Banner principal com chamada para ação</li>
                 <li>Categorias de produtos interativas</li>
