@@ -1,0 +1,69 @@
+/* ===========================================
+   VARIÁVEIS CSS - Portfolio
+   =========================================== */
+
+/* ========== VARIÁVEIS CSS ========== */
+:root {
+  /* Cores - Tema Escuro */
+  --primary-color: #f0f0f0;
+  --primary-bg-color: #121212;
+  --primary-bg-color-rgb: 18, 18, 18;
+  --secondary-bg-color: #1e1e24;
+  --secondary-bg-color-rgb: 30, 30, 36;
+  --primary-border-color: #28292e;
+  --accent-color: #ffc710;
+  --accent-color-hover: #e0b00f;
+  --accent-color-light: rgba(255, 199, 16, 0.1);
+  --title-color: #ffc710;
+  --text-color: #9a9a9c;
+  --link-color: #9a9a9c;
+  --icon-color: #c7c8c9;
+  --card-bg-color: rgba(40, 41, 46, 0.8);
+  --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  --hover-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+
+  /* Tipografia */
+  --font-primary: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    sans-serif;
+  --font-secondary: "League Spartan", Arial, sans-serif;
+  --font-size-sm: 0.875rem;
+  --font-size-base: 1rem;
+  --font-size-lg: 1.25rem;
+  --font-size-xl: 1.5rem;
+  --font-size-2xl: 2rem;
+  --font-size-3xl: 2.5rem;
+  --font-size-4xl: 3rem;
+
+  /* Layout */
+  --container-max-width: 1240px;
+  --header-height: 80px;
+  --header-height-scrolled: 70px;
+  --section-spacing: 5rem;
+  --section-spacing-sm: 3rem;
+  --border-radius: 0.5rem;
+  --border-radius-lg: 1rem;
+
+  /* Transições */
+  --transition-base: 0.3s ease;
+  --transition-menu: 0.4s cubic-bezier(0.65, 0, 0.35, 1);
+}
+
+/* Tema Claro */
+:root[data-theme="light"] {
+  --primary-color: #121212;
+  --primary-bg-color: #f9f9f9;
+  --primary-bg-color-rgb: 249, 249, 249;
+  --secondary-bg-color: #f0f0f0;
+  --secondary-bg-color-rgb: 240, 240, 240;
+  --primary-border-color: #e0e0e0;
+  --accent-color: #e09800;
+  --accent-color-hover: #c98700;
+  --accent-color-light: rgba(224, 152, 0, 0.1);
+  --title-color: #e09800;
+  --text-color: #555555;
+  --link-color: #555555;
+  --icon-color: #444444;
+  --card-bg-color: rgba(240, 240, 240, 0.8);
+  --box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  --hover-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
